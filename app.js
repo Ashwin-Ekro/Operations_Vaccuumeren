@@ -1,5 +1,7 @@
+const { useState } = React;
+
 const AccordionItem = ({ title, children }) => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="border rounded-lg mb-2">
